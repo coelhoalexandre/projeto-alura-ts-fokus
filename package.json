@@ -1,0 +1,21 @@
+{
+  "name": "fokus-ts-projeto-inicial",
+  "version": "1.0.0",
+  "main": "./",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -w",
+    "start": "lite-server",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
