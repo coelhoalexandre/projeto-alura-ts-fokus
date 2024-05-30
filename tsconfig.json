@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "outDir": "./",
     "module": "commonjs",
     "moduleResolution": "node"
   },
-  "include": ["./script-crud.ts"]
+  "include": ["./script-crud.ts"],
+  "exclude": []
 }
